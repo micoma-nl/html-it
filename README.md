@@ -17,7 +17,7 @@ Add the following lines inside your `<head>`:
 <script src="https://cdn.jsdelivr.net/gh/micoma-nl/html-it@latest/dist/html-it.min.js" defer></script>
 ```
 
-Add the following line just above '</body>`:
+Add the following line just above `</body>`:
 
 ```html
 <!-- Bootstrap 5 (required) -->
