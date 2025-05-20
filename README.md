@@ -1,116 +1,123 @@
-# ✍️ NiceEditor – Lightweight WYSIWYG Editor
+# ✍️ HTML IT – Lightweight WYSIWYG Editor
 
-NiceEditor is een snelle, simpele en herbruikbare WYSIWYG-editor die je eenvoudig kunt toevoegen aan elk HTML-project. Het vereist alleen Bootstrap 5 en één class op je `<textarea>`, en klaar ben je!
+**HTML IT** is a fast, simple, and reusable WYSIWYG editor that you can easily integrate into any HTML project. It only requires Bootstrap 5 and a single class on your `<textarea>` — and you're good to go!
 
 ---
 
-## 🚀 Installatie
+## 🚀 Installation
 
-Voeg de volgende regels toe in je `<head>`:
+Add the following lines inside your `<head>`:
 
 ```html
-<!-- Bootstrap 5 (verplicht) -->
+<!-- Bootstrap 5 (required) -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- NiceEditor CSS + JS -->
-<link href="https://cdn.jsdelivr.net/gh/jouwdomein/nice-editor@latest/dist/nice-editor.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/jouwdomein/nice-editor@latest/dist/nice-editor.min.js" defer></script>
+<!-- HTML IT CSS + JS -->
+<link href="https://cdn.jsdelivr.net/gh/micoma-nl/html-it@latest/dist/html-it.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/micoma-nl/html-it@latest/dist/html-it.min.js" defer></script>
+```
+
+Add the following line just above '</body>`:
+
+```html
+<!-- Bootstrap 5 (required) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 ```
 
 ---
 
-## 🧠 Gebruik
+## 🧠 Usage
 
-Plaats in je HTML een `<textarea>` met de class `nice-editor`:
+Place a `<textarea>` with the class `html-it` in your HTML:
 
 ```html
-<textarea class="nice-editor" placeholder="Typ hier je content..."></textarea>
+<textarea class="html-it" placeholder="Type your content here..."></textarea>
 ```
 
-NiceEditor transformeert dit automatisch naar een visuele editor met toolbar.
+HTML IT will automatically transform it into a visual WYSIWYG editor with a toolbar.
 
 ---
 
 ## 🧰 Features
 
-✅ Clean HTML-output  
-✅ Werkt met Bootstrap 5  
+✅ Clean HTML output  
+✅ Compatible with Bootstrap 5  
 ✅ Undo / redo  
 ✅ Bold, italic, underline  
-✅ Opsommingen (bullet & genummerd)  
-✅ Links invoegen  
-✅ Kopstijlen: H1 t/m H6 + paragraaf via dropdown  
-✅ Code view (toggle raw HTML)  
-✅ Minimalistisch en snel
+✅ Bullet & numbered lists  
+✅ Insert links  
+✅ Headings: H1 to H6 + paragraph via dropdown  
+✅ Code view toggle  
+✅ Lightweight and fast
 
 ---
 
 ## ⚡ Output
 
-De editor bewaart de gegenereerde HTML in het originele `<textarea>`-element. Je kunt dit eenvoudig gebruiken in formulieren, previews of CMS’en.
+The editor keeps the generated HTML inside the original `<textarea>`. This can be used in forms, previews, or CMS systems.
 
-Voorbeeldoutput:
+Example output:
 
 ```html
-<h1>Titel</h1>
-<p>Paragraaf met <strong>vette</strong> tekst</p>
+<h1>Title</h1>
+<p>Paragraph with <strong>bold</strong> text</p>
 <ul>
-  <li>Punt 1</li>
-  <li>Punt 2</li>
+  <li>Item 1</li>
+  <li>Item 2</li>
 </ul>
 ```
 
 ---
 
-## 📦 Bestandenstructuur
+## 📦 File Structure
 
 ```text
 /dist
-├── nice-editor.min.css   → opmaak van de editor
-└── nice-editor.min.js    → JavaScript voor functionaliteit
+├── html-it.min.css   → Editor styles
+└── html-it.min.js    → Editor functionality
 ```
 
 ---
 
-## 🛠️ Zelf hosten?
+## 🛠️ Self-hosting
 
-Plaats deze bestanden op je eigen server:
+Place these files on your own server:
 
 ```html
-<link href="/editor/nice-editor.min.css" rel="stylesheet">
-<script src="/editor/nice-editor.min.js" defer></script>
+<link href="/editor/html-it.min.css" rel="stylesheet">
+<script src="/editor/html-it.min.js" defer></script>
 ```
 
 ---
 
 ## 🌐 CDN via JSDelivr
 
-Gebruik de JSDelivr CDN:
+Use the JSDelivr CDN:
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/jouwdomein/nice-editor/dist/nice-editor.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/jouwdomein/nice-editor/dist/nice-editor.min.js" defer></script>
+<link href="https://cdn.jsdelivr.net/gh/micoma-nl/html-it/dist/html-it.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/micoma-nl/html-it/dist/html-it.min.js" defer></script>
 ```
 
-Of met specifieke versie:
+Or with a specific version:
 
 ```html
-<link href="https://cdn.jsdelivr.net/gh/jouwdomein/nice-editor@v1.0.0/dist/nice-editor.min.css" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/gh/jouwdomein/nice-editor@v1.0.0/dist/nice-editor.min.js" defer></script>
+<link href="https://cdn.jsdelivr.net/gh/micoma-nl/html-it@v1.0.0/dist/html-it.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/micoma-nl/html-it@v1.0.0/dist/html-it.min.js" defer></script>
 ```
 
 ---
 
-## 💡 Toekomstige uitbreidingen (optioneel)
+## 💡 Planned Features (optional)
 
-- [ ] Afbeeldingen uploaden
-- [ ] Tabellen invoegen
-- [ ] Kleurselectie voor tekst
-- [ ] Dark mode
-- [ ] Markdown-export
+- [ ] Image upload  
+- [ ] Insert tables  
+- [ ] Text color selection  
+- [ ] Dark mode  
+- [ ] Markdown export  
 
 ---
 
-## 📄 Licentie
+## 📄 License
 
-MIT © 2025 — door [JouwNaam](https://jouwdomein.nl)
+MIT © 2025 — by [MiCoMa](https://micoma.nl)
