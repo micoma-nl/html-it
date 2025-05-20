@@ -1,4 +1,4 @@
-# ✍️ HTML IT – Lightweight WYSIWYG Editor
+# ✍️ HTML IT – Lightweight Bootstrap 5 WYSIWYG Editor
 
 **HTML IT** is a fast, simple, and reusable WYSIWYG editor that you can easily integrate into any HTML project. It only requires Bootstrap 5 and a single class on your `<textarea>` — and you're good to go!
 
