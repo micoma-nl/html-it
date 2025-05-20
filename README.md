@@ -1,4 +1,4 @@
-# ✍️ HTML IT – Lightweight WYSIWYG Editor
+# ✍️ NiceEditor – Lightweight WYSIWYG Editor
 
 NiceEditor is een snelle, simpele en herbruikbare WYSIWYG-editor die je eenvoudig kunt toevoegen aan elk HTML-project. Het vereist alleen Bootstrap 5 en één class op je `<textarea>`, en klaar ben je!
 
