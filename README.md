@@ -75,6 +75,7 @@ Example output:
 /dist
 ├── html-it.min.css   → Editor styles
 └── html-it.min.js    → Editor functionality
+└── icons             → Editor icons
 ```
 
 ---
